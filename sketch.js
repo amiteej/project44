@@ -88,7 +88,7 @@ function draw() {
   }
   if (zombieGroup.isTouching(player)) {
     zombieGroup.destroyEach();
-    image()
+    
     life = life - 1;
 
     }
@@ -139,7 +139,7 @@ function spawnZombies() {
     zombie.scale = 0.3;
     zombieGroup.add(zombie);
     zombie.debug = true
-    zombie.setCollider("rectangle", 0, 0, 400, 400)
+    zombie.setCollider("rectangle", 0, 0, 600, 600)
 
   }
 }
