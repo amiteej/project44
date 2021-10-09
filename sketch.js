@@ -112,6 +112,7 @@ function draw() {
     hp.destroy();
     player.addImage(shooter_1shooting);
     player.rotation = -90
+    
     player.velocityY=0
     player.y=player.y+30
  textSize(100);
